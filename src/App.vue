@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Sortable from '@/components/Sortable.vue'
+  import Sortable from '@/components/Sortable.vue'
 </script>
 
 <template>
