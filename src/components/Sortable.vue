@@ -1,6 +1,9 @@
-<script lang="ts" setup>
+<script setup lang="ts">
+  import { onMounted, ref } from 'vue'
 </script>
 
 <template>
-  <div></div>
+  <div ref="list">
+    <slot />
+  </div>
 </template>
