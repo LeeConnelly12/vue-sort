@@ -1,11 +1,10 @@
-import type { App } from 'vue';
-import { HelloWorld, MyButton } from "@/components";
+import type { App } from 'vue'
+import { Sortable } from '@/components'
 
 export default {
   install: (app: App) => {
-    app.component('HelloWorld', HelloWorld);
-    app.component('MyButton', MyButton);
-  }
-};
+    app.component('Sortable', Sortable)
+  },
+}
 
-export { HelloWorld, MyButton };
+export { Sortable }
