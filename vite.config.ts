@@ -8,8 +8,8 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
 	cssInjectedByJsPlugin(),
+	vue(),
     dts({
       insertTypesEntry: true,
     }),
@@ -25,7 +25,7 @@ export default defineConfig({
         },
       },
       exclude: ["vite.config.ts"]
-    })
+    }),
   ],
   build: {
     cssCodeSplit: true,
